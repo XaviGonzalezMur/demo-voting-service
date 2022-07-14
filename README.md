@@ -1,2 +1,2 @@
-# demo-voting-service
-Microservice that handles voting on different programming languages, persisting the information in a database. This application must be SpringBootbased and packed inside a Docker container.
+# demo-microservices
+Contains microservices that handle voting on different programming languages and then persisting the information in a database. These applications are SpringBoot-based and packed inside a Docker container.
