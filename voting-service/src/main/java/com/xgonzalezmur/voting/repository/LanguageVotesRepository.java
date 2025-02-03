@@ -10,8 +10,8 @@ import javax.transaction.Transactional;
 
 @Repository
 public interface LanguageVotesRepository extends JpaRepository<LanguageVotes, Long> {
+    @Transactional
     @Modifying(clearAutomatically = true)
     @Query("UPDATE LanguageVotes lv SET lv.votes = lv.votes + 1 WHERE lv.language.id = ?1")
-    @Transactional
     int incrementVoteByLanguage(long idLanguage);
 }

@@ -11,4 +11,4 @@ database. These applications are SpringBoot-based and packed inside a Docker con
 * Add integration tests.
 * Make dependencies as much explicit as possible.
 * Add front-end code.
-* Use asynchronous messaging instead of RestTemplate usage.
+* Use asynchronous messaging instead of RestTemplate usage (not needed, but maybe for illustrative purpose).
