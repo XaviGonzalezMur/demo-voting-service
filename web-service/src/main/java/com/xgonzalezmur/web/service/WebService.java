@@ -28,7 +28,7 @@ public class WebService {
         }).getBody();
     }
 
-    public Integer sendVote(long idLanguage) {
+    public Integer sendVote(int idLanguage) {
         return restTemplate.postForObject(votingServiceUrl + "/vote", idLanguage, Integer.class);
     }
 

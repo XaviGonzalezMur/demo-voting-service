@@ -30,8 +30,8 @@ public class WebController {
     }
 
     @PostMapping("/vote")
-    public Integer vote(@Validated @RequestBody long idLanguage) {
-        log.debug("Web Service - /vote/{}", idLanguage);
+    public Integer vote(@Validated @RequestBody int idLanguage) {
+        log.debug("Web Service - /vote idLanguage={}", idLanguage);
 
         return webService.sendVote(idLanguage);
     }
