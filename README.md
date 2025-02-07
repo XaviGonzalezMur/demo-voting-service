@@ -7,8 +7,8 @@ database. These applications are SpringBoot-based and packed inside a Docker con
 
 * Change no-testing database to Postgres instead of H2.
 * Add containerization code.
+* Replace RestTemplate (especially if SpringBoot 5 is used) with Feign Client.
 * Add cloud configuration.
 * Add integration tests.
 * Make dependencies as much explicit as possible.
 * Add front-end code.
-* Use asynchronous messaging instead of RestTemplate usage (not needed, but maybe for illustrative purpose).
